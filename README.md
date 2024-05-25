@@ -21,13 +21,14 @@ You can install the required Python packages using pip:
 2. Navigate to the project directory.
 3. Run the Streamlit app using the following command:
 
-```streamlit run app.py```
+    ```streamlit run app.py```
 
 4. The app will open in your default web browser. If it doesn't open automatically, you can access it by clicking the URL provided in the terminal.
 5. In the app interface, enter the desired mood, theme, and style for the poem you want to generate.
 6. Click the "Generate Poem" button.
 7. The generated poem will be displayed in the app, with line breaks preserved.
 
+Note: Make sure to have the model downloaded and save it in the models folder in the project directory
 ## Code Overview
 
 The code consists of the following components:
