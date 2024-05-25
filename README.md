@@ -1,3 +1,7 @@
+# Sample Output:
+
+![image](https://github.com/Dharinesh/An-LLM-based-Poetry-Generator/assets/108059896/cc32655a-3337-4ee6-aecd-ccadd9a5d363)
+
 # Poetry Generator
 
 This is a simple Streamlit app that generates poetry based on user-provided mood, theme, and style preferences. The app utilizes the LLama-2 language model from Anthropic to generate the poems.
@@ -28,7 +32,10 @@ You can install the required Python packages using pip:
 6. Click the "Generate Poem" button.
 7. The generated poem will be displayed in the app, with line breaks preserved.
 
-Note: Make sure to have the model downloaded and save it in the models folder in the project directory
+Note: Make sure to have the model downloaded, and save it in the models folder in the project directory.
+You can download the model from Hugging Face:  [Hugging Face]([https://example.com](https://huggingface.co/)) 
+    -offcial meta models requiries signing up tp terms and conditions
+    
 ## Code Overview
 
 The code consists of the following components:
@@ -44,10 +51,6 @@ You can customize the app by modifying the following aspects:
 - Language model: Change the `model` parameter in the `CTransformers` initialization to use a different language model.
 - Model configuration: Adjust the `config` parameter in the `CTransformers` initialization to modify the model's behavior, such as changing the temperature or the maximum number of generated tokens.
 - Streamlit app UI: Modify the Streamlit app code to change the user interface, add additional features, or customize the styling.
-
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
 
