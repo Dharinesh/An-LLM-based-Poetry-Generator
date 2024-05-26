@@ -57,4 +57,4 @@ You can customize the app by modifying the following aspects:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
